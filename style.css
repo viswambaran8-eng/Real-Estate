@@ -564,6 +564,7 @@ main {
 
 .Structure {
   padding: 10px 5%;
+  overflow-x: hidden;
 }
 
 .heading {

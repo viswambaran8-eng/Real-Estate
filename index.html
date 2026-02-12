@@ -132,26 +132,30 @@
 
             <!-- PROPERTY SEARCH BAR -->
             <div class="property-search">
-              <input
-                type="text"
-                placeholder="Enter location, city, or project..."  data-aos="fade-up" data-aos-delay="100"
-              />
+              <select data-aos="fade-up" data-aos-delay="100">
+  <option value="" disabled selected>Select Location</option>
+  <option value="mumbai"> <p>Mumbai</p></option>
+  <option value="delhi"><p>Delhi </p></option>
+  <option value="bangalore"><p>Bangalore </p></option>
+  <option value="hyderabad"> <p>Hyderabad </p></option>
+</select>
 
-              <select  data-aos="fade-up" data-aos-delay="200">
-                <option><p>Property Type</p></option>
-                <option><p>Residential</p></option>
-                <option><p>Commercial</p></option>
-                <option><p>Villa</p></option>
-                <option><p>Apartment</p></option>
-              </select>
+              <select data-aos="fade-up" data-aos-delay="200">
+  <option value="" disabled selected>Property Type</option>
+  <option value="residential"><p> Residential </p></option>
+  <option value="commercial"><p> Commercial</p> </option>
+  <option value="villa"><p> Villa </p></option>
+  <option value="apartment"><p> Apartment</p> </option>
+</select>
 
-              <select  data-aos="fade-up" data-aos-delay="300">
-                <option><p>Budget</p></option>
-                <option><p>Under $100k</p></option>
-                <option><p>$100k - $300k</p></option>
-                <option><p>$300k - $700k</p></option>
-                <option><p>$700k+</p></option>
-              </select>
+<select data-aos="fade-up" data-aos-delay="300">
+  <option value="" disabled selected>Budget</option>
+  <option value="under-100k"><p> Under $100k </p></option>
+  <option value="100k-300k"><p>$100k - $300k </p></option>
+  <option value="300k-700k"><p>$300k - $700k </p></option>
+  <option value="700k-plus"><p>$700k+ </p></option>
+</select>
+
 
               <a href="./error.html">
               <button class="cta-btn"  data-aos="fade-up" data-aos-delay="400">Search Property</button>
