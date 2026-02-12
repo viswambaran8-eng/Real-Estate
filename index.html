@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stackly Real Estate</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./Assets/icon-removebg-preview.webp" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header>
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./Assets/Logo.webp" alt="Stackly Real Estate" />
+        </a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="./error.html">Home</a></li>
+          <li><a href="./error.html">About Us</a></li>
+          <li><a href="./error.html">Properties</a></li>
+          <li><a href="./error.html">Projects</a></li>
+          <li><a href="./error.html">Insights</a></li>
+          <li><a href="./error.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <div class="login">
+          <a href="./error.html">
+            <i class="fa-regular fa-circle-user"></i>
+          </a>
+        </div>
+
+        <div class="mobilebar">
+          <div class="hamburger-box">
+            <div class="hamburger">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="./error.html">Home</a></li>
+        <li><a href="./error.html">About Us</a></li>
+        <li><a href="./error.html">Properties</a></li>
+        <li><a href="./error.html">Projects</a></li>
+        <li><a href="./error.html">Insights</a></li>
+        <li><a href="./error.html">Contact</a></li>
+      </ul>
+
+      <div class="sidebar-login">
+        <a href="./error.html">
+          <button class="login-btn">Agent Login</button>
+        </a>
+        <a href="./error.html">
+          <button class="login-btn">List Property</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <main>
+      <div class="hero-section">
+        <!-- SWIPER (UNCHANGED STRUCTURE) -->
+        <div class="swiper heroSwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;./Assets/swiper1_11zon_11zon.webp&quot;);
+                filter: brightness(40%);
+              "
+            ></div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;./Assets/swiper2_11zon_11zon.webp&quot;);
+                filter: brightness(40%);
+                background-position: center;
+              "
+            ></div>
+
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url(&quot;./Assets/swiper3_11zon_11zon.webp&quot;);
+                filter: brightness(40%);
+                background-position: center;
+              "
+            ></div>
+          </div>
+        </div>
+        <!-- END SWIPER -->
+
+        <!-- HERO CONTENT -->
+        <div class="heroblock">
+          <div class="hero-content center-content">
+            <span class="herotagline" data-aos="fade-up" data-aos-delay="100">Find Your Dream Property</span>
+
+            <h1  data-aos="fade-up" data-aos-delay="200">
+              Discover Luxury Homes & Premium<br />
+              Investment Properties
+            </h1>
+
+            <p  data-aos="fade-up" data-aos-delay="300">
+              Explore residential and commercial properties in prime locations.
+              Buy, sell, or invest with confidence through expert real estate
+              guidance.
+            </p>
+
+            <!-- PROPERTY SEARCH BAR -->
+            <div class="property-search">
+              <input
+                type="text"
+                placeholder="Enter location, city, or project..."  data-aos="fade-up" data-aos-delay="100"
+              />
+
+              <select  data-aos="fade-up" data-aos-delay="200">
+                <option><p>Property Type</p></option>
+                <option><p>Residential</p></option>
+                <option><p>Commercial</p></option>
+                <option><p>Villa</p></option>
+                <option><p>Apartment</p></option>
+              </select>
+
+              <select  data-aos="fade-up" data-aos-delay="300">
+                <option><p>Budget</p></option>
+                <option><p>Under $100k</p></option>
+                <option><p>$100k - $300k</p></option>
+                <option><p>$300k - $700k</p></option>
+                <option><p>$700k+</p></option>
+              </select>
+
+              <a href="./error.html">
+              <button class="cta-btn"  data-aos="fade-up" data-aos-delay="400">Search Property</button>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END HERO CONTENT -->
+      </div>
+    </main>
+
+    <section class="Structure">
+      <div class="heading">
+        <h1  data-aos="zoom-in" data-aos-delay="100">About Our Real Estate Expertise</h1>
+        <p  data-aos="zoom-in" data-aos-delay="150">
+          Trusted property advisors delivering luxury living spaces, strategic
+          investments, and sustainable developments.
+        </p>
+      </div>
+
+      <div class="about">
+        <div class="about-container">
+          <!-- LEFT : IMAGE -->
+          <div class="about-image"  data-aos="zoom-in" data-aos-delay="100">
+            <img src="Assets/abt_11zon_11zon.webp" alt="Luxury Real Estate" />
+
+            <div class="about-chart-box">
+              <h4>500+ Projects</h4>
+              <div class="about-chart">Delivered Across Prime Locations</div>
+            </div>
+          </div>
+
+          <!-- RIGHT : CONTENT -->
+          <div class="about-content">
+            <p class="about-tag" data-aos="fade-left" data-aos-delay="100">
+              <span></span> OUR REAL ESTATE EXPERTISE
+            </p>
+
+            <h1 data-aos="fade-left" data-aos-delay="150">
+              Smart, Secure & High-Value Property Investments
+            </h1>
+
+            <!-- TABS -->
+            <div class="about-tabs">
+              <button
+                class="about-tab active"
+                data-tab="about-mission"
+                data-aos="zoom-out"
+                data-aos-delay="100"
+              >
+                Our Commitment
+              </button>
+              <button
+                class="about-tab"
+                data-tab="about-vision"
+                data-aos="zoom-out"
+                data-aos-delay="100"
+              >
+                Our Vision
+              </button>
+              <button
+                class="about-tab"
+                data-tab="about-journey"
+                data-aos="zoom-out"
+                data-aos-delay="100"
+              >
+                Our Experience
+              </button>
+            </div>
+
+            <!-- TAB CONTENT -->
+            <div
+              class="about-tab-content"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <p class="about-desc active" id="about-mission">
+                Our commitment is to provide premium residential and commercial
+                properties in prime locations, ensuring transparency, trust, and
+                long-term value for every client.
+              </p>
+
+              <p
+                class="about-desc"
+                id="about-vision"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              >
+                Our vision is to become a trusted real estate partner known for
+                delivering luxury living spaces, smart investments, and
+                sustainable property development.
+              </p>
+
+              <p
+                class="about-desc"
+                id="about-journey"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              >
+                From curated luxury homes to large-scale commercial projects,
+                our journey reflects a dedication to excellence, innovation, and
+                client-first service.
+              </p>
+            </div>
+
+            <!-- FEATURES -->
+            <div class="about-features">
+              <div data-aos="zoom-in" data-aos-delay="100">
+                <i class="fa-solid fa-circle-check"></i>
+                Luxury Residential Projects
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="100">
+                <i class="fa-solid fa-circle-check"></i>
+                Commercial Investment Spaces
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="100">
+                <i class="fa-solid fa-circle-check"></i>
+                Transparent Legal Support
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="100">
+                <i class="fa-solid fa-circle-check"></i>
+                Dedicated Property Advisors
+              </div>
+            </div>
+
+            <!-- ACTIONS -->
+            <div class="about-actions">
+              <a href="./error.html" data-aos="zoom-in" data-aos-delay="100">
+                <button class="apply-btn">Explore Properties →</button>
+              </a>
+
+              <div class="contact" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fa-solid fa-phone"></i>
+                <span>Speak with a Property Expert</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="realestate-section">
+        <div class="section-heading">
+          <h2 data-aos="fade-up" data-aos-delay="100">Discover Our Featured Listings</h2>
+          <p data-aos="fade-up" data-aos-delay="200">Premium properties curated for you</p>
+        </div>
+
+        <div class="slider-container">
+          <div class="slider-arrow arrow-left">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+
+          <div class="slider-arrow arrow-right">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <div class="property-slider" id="propertySlider">
+            <!-- CARD 1 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card1_11zon_11zon.webp" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR RENT</span>
+                <div class="price">$4,500/mo</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>Modern Luxury Apartment</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> Miami, FL
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 4</span>
+                  <span><i class="fa-solid fa-bath"></i> 2</span>
+                  <span><i class="fa-solid fa-car"></i> 1</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 1200</span>
+                </div>
+                <div class="property-type">APARTMENT</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/cardt1_11zon_11zon.webp" alt="" />
+                    <span>Samuel Palmer</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 10 month ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card2_11zon_11zon.webp" alt="" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR SALE</span>
+                <div class="price">$950,000</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>Beachfront Villa</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> Malibu, CA
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 5</span>
+                  <span><i class="fa-solid fa-bath"></i> 3</span>
+                  <span><i class="fa-solid fa-car"></i> 2</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 3000</span>
+                </div>
+                <div class="property-type">VILLA</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/card2t_11zon_11zon.webp" alt="" />
+                    <span>Emma Stone</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 1 month ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card3_11zon_11zon.webp" alt="" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR SALE</span>
+                <div class="price">$720,000</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>Urban House</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> Chicago
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 4</span>
+                  <span><i class="fa-solid fa-bath"></i> 2</span>
+                  <span><i class="fa-solid fa-car"></i> 2</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 2400</span>
+                </div>
+                <div class="property-type">HOUSE</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/card3t_11zon_11zon.webp" alt="" />
+                    <span>James Parker</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 9 month ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card4_11zon_11zon.webp" alt="" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR RENT</span>
+                <div class="price">$3,200/mo</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>Lake View Mansion</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> Florida
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 6</span>
+                  <span><i class="fa-solid fa-bath"></i> 4</span>
+                  <span><i class="fa-solid fa-car"></i> 3</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 6000</span>
+                </div>
+                <div class="property-type">MANSION</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/card4t_11zon_11zon.webp" alt="" />
+                    <span>Daniel White</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 4 month ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card5_11zon_11zon.webp" alt="" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR SALE</span>
+                <div class="price">$880,000</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>Luxury Townhouse</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> Toronto
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 3</span>
+                  <span><i class="fa-solid fa-bath"></i> 2</span>
+                  <span><i class="fa-solid fa-car"></i> 2</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 2000</span>
+                </div>
+                <div class="property-type">TOWNHOUSE</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/card5t_11zon_11zon.webp" alt="" />
+                    <span>Olivia Brown</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 3 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card6_11zon_11zon.webp" alt="" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR RENT</span>
+                <div class="price">$2,800/mo</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>City Loft</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> Seattle
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 2</span>
+                  <span><i class="fa-solid fa-bath"></i> 2</span>
+                  <span><i class="fa-solid fa-car"></i> 1</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 1400</span>
+                </div>
+                <div class="property-type">LOFT</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/card6_11zon_11zon.webp" alt="" />
+                    <span>Ryan Cooper</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 2 month ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card7_11zon_11zon.webp" alt="" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR SALE</span>
+                <div class="price">$640,000</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>Renovated Studio</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> New York
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 1</span>
+                  <span><i class="fa-solid fa-bath"></i> 1</span>
+                  <span><i class="fa-solid fa-car"></i> 0</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 950</span>
+                </div>
+                <div class="property-type">STUDIO</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/card7t_11zon_11zon.webp" alt="" />
+                    <span>Jessica Lee</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 8 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="property-card"  data-aos="zoom-in" data-aos-delay="100">
+              <div class="property-image">
+                <img src="./Assets/card8_11zon_11zon.webp" alt="" />
+                <span class="badge featured">FEATURED</span>
+                <span class="badge status">FOR RENT</span>
+                <div class="price">$3,600/mo</div>
+                <div class="hover-icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-code-compare"></i>
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+              </div>
+              <div class="property-content">
+                <h3>Luxury Penthouse</h3>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i> Dubai
+                </p>
+                <div class="features">
+                  <span><i class="fa-solid fa-bed"></i> 5</span>
+                  <span><i class="fa-solid fa-bath"></i> 4</span>
+                  <span><i class="fa-solid fa-car"></i> 2</span>
+                  <span><i class="fa-solid fa-ruler-combined"></i> 3500</span>
+                </div>
+                <div class="property-type">PENTHOUSE</div>
+                <div class="agent-row">
+                  <div class="agent-info">
+                    <img src="./Assets/card8t_11zon_11zon.webp" alt="" />
+                    <span>Michael Ray</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i> 5 month ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heading">
+        <h1  data-aos="fade-up" data-aos-delay="100">Our Real Estate Projects</h2>
+        <p  data-aos="fade-up" data-aos-delay="100">Explore our premium developments across prime locations</p>
+      </div>
+
+      <div class="projects-section" id="projects">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        
+
+          <!-- FILTER BUTTONS -->
+          <div class="filter-buttons" data-aos="zoom-in" data-aos-delay="100">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="apartment">
+              Apartment
+            </button>
+            <button class="filter-btn" data-filter="villa">Villa</button>
+            <button class="filter-btn" data-filter="commercial">
+              Commercial
+            </button>
+          </div>
+
+          <!-- PROJECT GRID -->
+          <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+      </div>
+
+      <!-- ================= INSIGHTS SECTION ================= -->
+       <div class="heading">
+        <h1  data-aos="fade-up" data-aos-delay="100">Real Estate Insights</h1>
+        <p  data-aos="fade-up" data-aos-delay="100">Stay updated with market trends, investment tips, and expert guidance.
+        </p>
+      </div>
+
+    <div class="insights">
+  <div class="container">
+
+    <div class="section-header">
+      <h2  data-aos="fade-up" data-aos-delay="100">Latest Real Estate Insights</h2>
+      <p  data-aos="fade-up" data-aos-delay="100">Stay updated with market trends and smart investment strategies</p>
+    </div>
+
+    <div class="insights-grid">
+
+      <div class="insight-card"  data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800" alt="Market Trends">
+        <h3>📈 Market Trends 2026</h3>
+        <p>Discover how metro cities are experiencing a 12% growth in property value this year.</p>
+        <a href="./error.html">Read More</a>
+      </div>
+
+      <div class="insight-card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800" alt="Buying Guide">
+        <h3>🏡 Buying Guide</h3>
+        <p>Step-by-step guide for first-time home buyers to make smart investment decisions.</p>
+        <a href="./error.html">Read More</a>
+      </div>
+
+      <div class="insight-card"  data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800" alt="Investment Tips">
+        <h3>💰 Investment Tips</h3>
+        <p>Learn how to maximize ROI from commercial and residential properties.</p>
+        <a href="./error.html">Read More</a>
+      </div>
+
+    </div>
+  </div>
+    </div>
+
+
+<!-- ================= TESTIMONIAL SECTION ================= -->
+<div class="testimonials">
+  <div class="container">
+    <h2 class="section-title"  data-aos="fade-up" data-aos-delay="100">What Our Clients Say</h2>
+
+    <div class="testimonial-slider">
+      <div class="testimonial-wrapper" id="testimonialWrapper"  data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonial">
+          <img src="./Assets/cardt1_11zon_11zon.webp" alt="">
+          <p>"Amazing experience! Found my dream home within weeks."</p>
+          <h4>— Rajesh Kumar</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="./Assets/card2t_11zon_11zon.webp" alt="">
+          <p>"Professional team and smooth documentation process."</p>
+          <h4>— Anjali Mehta</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="./Assets/card3t_11zon_11zon.webp" alt="">
+          <p>"Best investment advice for commercial property."</p>
+          <h4>— Vikram Shah</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="./Assets/card4t_11zon_11zon.webp" alt="">
+          <p>"Transparent pricing and excellent customer support."</p>
+          <h4>— Priya Nair</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="./Assets/card5t_11zon_11zon.webp" alt="">
+          <p>"Their team helped me secure a high-return investment property."</p>
+          <h4>— Arjun Rao</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="./Assets/card6t_11zon_11zon.webp" alt="">
+          <p>"Very responsive and guided us through every step."</p>
+          <h4>— Sneha Patel</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="./Assets/card7t_11zon_11zon.webp" alt="">
+          <p>"Luxury villas with world-class amenities. Highly recommend!"</p>
+          <h4>— Karan Malhotra</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="./Assets/card8t_11zon_11zon.webp" alt="">
+          <p>"Smooth documentation and hassle-free property registration."</p>
+          <h4>— Neha Sharma</h4>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================= CONTACT SECTION ================= -->
+      <div class="contacts">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Contact Us</h2>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3 data-aos="fade-right" data-aos-delay="100">Get In Touch</h3>
+        <p data-aos="fade-right" data-aos-delay="150">Email: info@realestate.com</p>
+        <p data-aos="fade-right" data-aos-delay="200">Phone: +91 98765 43210</p>
+        <p data-aos="fade-right" data-aos-delay="250">Location: Mumbai, India</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="./error.html" method="post">
+        <input type="text" placeholder="Your Name" required data-aos="fade-left" data-aos-delay="100">
+        <input type="email" placeholder="Your Email" required data-aos="fade-left" data-aos-delay="150">
+        <textarea rows="5" placeholder="Your Message" required data-aos="fade-left" data-aos-delay="200"></textarea>
+        <a href="./error.html" class="the-btn">Send Message</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+    <div class="scroll-indicator">
+      <svg width="60" height="60" viewBox="0 0 60 60">
+        <defs>
+          <linearGradient
+            id="scrollGradient"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="100%"
+          >
+            <stop offset="0%" stop-color="#ff4d8d" />
+            <stop offset="100%" stop-color="#ff8a00" />
+          </linearGradient>
+        </defs>
+
+        <circle class="bg" cx="30" cy="30" r="26" />
+        <circle class="progress" cx="30" cy="30" r="26" />
+      </svg>
+      <div class="scroll-percent">0%</div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div>
+          <!-- <img class="logo1" src="./Assets/Logo.webp" alt=""> -->
+          <h3>Stackly Real Estate Solutions</h3>
+          <p>
+            Stackly Real Estate Solutions delivers premium property services by
+            combining market expertise, innovative technology, and data-driven
+            insights to help clients buy, sell, and invest with confidence in
+            today’s dynamic real estate market.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="./error.html">Home</a>
+          <a href="./error.html">About Us</a>
+          <a href="./error.html">Properties</a>
+          <a href="./error.html">Projects</a>
+          <a href="./error.html">Blog</a>
+          <a href="./error.html">Contact</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Real Estate Services</h3>
+          <a href="./error.html">Residential Properties</a>
+          <a href="./error.html">Commercial Spaces</a>
+          <a href="./error.html">Property Investment</a>
+          <a href="./error.html">Property Management</a>
+        </div>
+
+        <div>
+          <h3>Stay Updated</h3>
+          <p>
+            Receive the latest property listings, market trends, and investment
+            opportunities directly to your inbox.
+          </p>
+
+          <div class="subscribe">
+            <input type="email" placeholder="Your email address" />
+            <a href="./error.html">
+              <button>Subscribe</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 Stackly Real Estate Solutions. All Rights Reserved.
+      </div>
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      AOS.init({ once: true, duration: 1000, easing: "ease-out-cubic" });
+    </script>
+
+    <script>
+      const progressCircle = document.querySelector(
+        ".scroll-indicator .progress",
+      );
+      const percentText = document.querySelector(".scroll-percent");
+
+      const circumference = 2 * Math.PI * 26; // r = 26
+
+      function updateScrollProgress() {
+        const scrollTop = window.scrollY;
+        const docHeight =
+          document.documentElement.scrollHeight - window.innerHeight;
+
+        const scrollPercent = docHeight > 0 ? scrollTop / docHeight : 0;
+        const offset = circumference - scrollPercent * circumference;
+
+        progressCircle.style.strokeDashoffset = offset;
+
+        percentText.textContent = Math.round(scrollPercent * 100) + "%";
+      }
+
+      window.addEventListener("scroll", updateScrollProgress);
+      updateScrollProgress();
+    </script>
+
+    <script src="./script.js"></script>
+    <script src="./swiper.js"></script>
+    <script src="./project.js"></script>
+    <script src="./estate-slider.js"></script>
+    <script src="./testi-slide.js"></script>
+  </body>
+</html>

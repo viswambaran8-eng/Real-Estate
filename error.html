@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>404 | Page Not Found</title>
+
+<!-- Lottie -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(120deg, #12040a, #1a060c, #22080e);
+  animation: bgShift 12s infinite alternate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd6e5;
+}
+
+@keyframes bgShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(-8deg); }
+}
+
+/* Floating blobs */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.7;
+  animation: float 14s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-40px); }
+}
+
+.blob.one {
+  width: 260px;
+  height: 260px;
+  background: #ff4d8d;
+  top: 8%;
+  left: 8%;
+}
+
+.blob.two {
+  width: 340px;
+  height: 340px;
+  background: #ff8a00;
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 4s;
+}
+
+.blob.three {
+  width: 200px;
+  height: 200px;
+  background: #ff6a5e;
+  top: 65%;
+  left: 30%;
+  animation-delay: 7s;
+}
+
+/* Glass card */
+.container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 50px 60px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(20px);
+  box-shadow:
+    0 0 70px rgba(255, 77, 141, 0.55),
+    0 0 120px rgba(255, 138, 0, 0.35);
+}
+
+/* 404 text */
+.glitch {
+  font-size: 120px;
+  font-weight: 800;
+  margin-top: -30px;
+  background: linear-gradient(
+    45deg,
+    #ff4d8d,
+    #ff8a00,
+    #ffb347,
+    #ff8a00,
+    #ff4d8d
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    0 0 30px rgba(255, 77, 141, 0.9),
+    0 0 60px rgba(255, 138, 0, 0.7),
+    0 0 90px rgba(255, 106, 94, 0.6);
+  animation: pulseGlow 2s infinite alternate;
+}
+
+@keyframes pulseGlow {
+  from { text-shadow: 0 0 25px rgba(255, 77, 141, 0.6); }
+  to { text-shadow: 0 0 70px rgba(255, 138, 0, 0.95); }
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+p {
+  opacity: 0.9;
+  margin: 14px 0 30px;
+  color: #ffe3ec;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 40px;
+  background: linear-gradient(
+    135deg,
+    #ff4d8d,
+    #ff8a00
+  );
+  color: #1a060c;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  transition: all 0.4s ease;
+  box-shadow:
+    0 0 40px rgba(255, 77, 141, 0.7),
+    0 0 70px rgba(255, 138, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Button shimmer */
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -130%;
+  width: 130%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,0.9),
+    transparent
+  );
+  transform: skewX(-25deg);
+}
+
+.btn:hover::before {
+  animation: shine 0.9s ease;
+}
+
+@keyframes shine {
+  to { left: 130%; }
+}
+
+.btn:hover {
+  transform: scale(1.12);
+  box-shadow:
+    0 0 70px rgba(255, 77, 141, 1),
+    0 0 110px rgba(255, 138, 0, 0.9);
+}
+</style>
+</head>
+
+<body>
+
+<div class="blob one"></div>
+<div class="blob two"></div>
+<div class="blob three"></div>
+
+<div class="container">
+
+  <!-- LOTTIE -->
+  <lottie-player
+    src="https://assets2.lottiefiles.com/packages/lf20_j1adxtyb.json"
+    background="transparent"
+    speed="1"
+    loop
+    autoplay>
+  </lottie-player>
+
+  <div class="glitch">404</div>
+  <h2>Page Not Found</h2>
+  <p>Looks like this page drifted into another universe.</p>
+  <a href="./index.html" class="btn">Go Back Home</a>
+
+</div>
+
+</body>
+</html>
