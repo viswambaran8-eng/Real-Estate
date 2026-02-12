@@ -1518,6 +1518,13 @@ main {
 
   .contact-wrapper {
     flex-direction: column;
+    gap: 25px;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -1535,6 +1542,10 @@ main {
   font-size: 14px;
   margin-bottom: 25px;
 }
+.contact-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 
