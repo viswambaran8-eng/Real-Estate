@@ -41,9 +41,9 @@ header {
 }
 
 .logo img {
-  width: 170px;
-  height: 130px;
-  margin-top: 20px;
+  width: 200px;
+  /* height: 130px; */
+  margin-top: 10px;
 }
 
 .login i {
@@ -419,7 +419,7 @@ main {
 /* Inputs & Selects */
 .property-search input,
 .property-search select {
-  padding: 14px 20px;
+  padding: 14px 5px;
   border-radius: 30px;
   border: none;
   outline: none;
