@@ -1455,6 +1455,7 @@ main {
 .contact-info {
   width: 100%;
   color: gray;
+  text-decoration: none;
 }
 
 .contact-info h3 {
